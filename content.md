@@ -153,7 +153,7 @@ if (baleance >= 0) {
 // expected output:  Your balance is positive
 ```
 
-Getting back to our index.html file, our goal is to create a function to make an operation which changes according to the operator.
+Getting back to our index.html file, our goal is to create a function to make an operation which changes according to the operator that has been entered in the prompt.
 
 * Remove the previous console.log(...) from your code
 * Now you will add a condition on the value of the operator : 
@@ -207,6 +207,7 @@ Getting back to our index.html file, our goal is to create a function to make an
       console.log('Invalid operator');
   }
   if (operand === '+') {
+    console.log(firstValue + secondValue);
   } else {
     console.log(firstValue - secondValue);
   }
