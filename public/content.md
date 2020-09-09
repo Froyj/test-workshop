@@ -153,7 +153,7 @@ if (baleance >= 0) {
 // expected output:  Your balance is positive
 ```
 
-Getting back to our index.html file, our goal is to create a function to make an operation which changes according to the operator.
+Getting back to our index.html file, our goal is to create a function to make an operation which changes according to the operator that has been entered in the prompt.
 
 * Remove the previous console.log(...) from your code
 * Now you will add a condition on the value of the operator : 
@@ -207,19 +207,22 @@ Getting back to our index.html file, our goal is to create a function to make an
       console.log('Invalid operator');
   }
   if (operand === '+') {
+    console.log(firstValue + secondValue);
   } else {
     console.log(firstValue - secondValue);
   }
 </script>
 ```
 
-Good job, through this step-by-step workshop you coded a simple calculator !
+Good job, through this step-by-step workshop you coded a simple calculator ! 
+But it is not over yet...
 
-Now let's reuse all we have seen here through another exercise...
 
 #### Challenge : The Price is Right
 
-You have to code a simple program covering the followings :
+Now let's reuse all we have seen here through another exercise...
+
+You have to code a program covering the followings :
 * **Ask the player's name**
 * **Store a random number** between 1 and 100
 * **Ask a number** to the player (between 1 and 100)
@@ -228,3 +231,9 @@ You have to code a simple program covering the followings :
 * If the player's number **equals** the stored value, log **"*$player* wins"** (where *$player* is replaced by the player's name)
 * **Repeat** these instructions until the players win, or if it takes more than 5 rounds
 *  If the player **didn't found** the right price, log **"Game Over"**
+
+Don't hesitate to read again quests and contents about all the concepts that we used. 
+
+**If you have doubts, test by yourself, experience is the best source of knowledge!** 
+
+You will not break anything !
