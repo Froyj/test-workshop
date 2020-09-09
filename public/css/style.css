@@ -110,3 +110,10 @@ li {margin: 10px}
     padding-bottom: 3rem;
     background-color: white;
 }
+
+.number {
+  background-color: transparent;
+  display: inline;
+  margin-right: 0;
+  padding: 0;
+}
